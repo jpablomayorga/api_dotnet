@@ -1,0 +1,102 @@
+# Archivos de compilación
+bin/
+obj/
+
+# Archivos temporales
+[Tt]emp/
+[Vv][Ss][Cc]ache/
+PrecompiledWeb/
+
+# Archivos generados automáticamente
+*.log
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.user
+*.sln.docstates
+
+# Archivos de configuración
+*.suo
+*.user
+*.sln.docstates
+
+# Directorios específicos para IDEs
+.vscode/
+.idea/
+
+# Paquetes NuGet
+packages/
+*.nupkg
+# Archivos de configuración de NuGet
+nuget.exe
+nuget.targets
+
+# Archivos de compilación de MSBuild
+msbuild.log
+msbuild.err
+
+# Archivos de compilación de Visual Studio
+[Bb]in/
+[Oo]bj/
+
+# Carpetas
+_ReSharper.*
+[Pp]ackages/
+[Tt]est[Rr]esult*
+
+# Archivos de publicación
+_PublishedWebsites/
+pubxml
+
+# Registros y salidas de compilación
+*.log
+*.log.*
+*.bop
+*.swp
+*.suo
+*.user
+*.tmp
+*.user
+
+# Directorio de salida
+[Dd]ebug/
+[Rr]elease/
+
+# Papelera de reciclaje de Windows
+$RECYCLE.BIN/
+
+# SQL Server
+*.mdf
+*.ldf
+
+# Registros de IIS
+IISLogs/
+
+# Registros de errores Elmah
+App_Data/*.xml
+
+# Archivos temporales creados por Visual Studio
+*.pidb
+*.user
+
+# Carpeta de configuración de Visual Studio 2015 y 2017
+.vs2015/
+.vs2017/
+
+# Rider
+.idea/
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+.idea/workspace.xml
+.idea/gradle.xml
+.idea/assetWizardSettings.xml
+.idea/dictionaries
+
+# Archivos específicos del usuario
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
