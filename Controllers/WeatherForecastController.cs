@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace webAPI.Controllers;
 
 [ApiController]
-[Route("[controller]")]
+[Route("api/[controller]")]
 public class WeatherForecastController : ControllerBase
 {
     private static readonly string[] Summaries = new[]
@@ -33,7 +33,10 @@ public class WeatherForecastController : ControllerBase
     }
 
     [HttpGet(Name = "GetWeatherForecast")]
-    public IEnumerable<WeatherForecast> Get()
+    [Route("get/weatherforecast")]
+    [Route("get/weatherforecast2")]
+    [Route("[action]")]
+    public IEnumerable<WeatherForecast> GetW()
     {
         return ListWeatherForecast;
     }
