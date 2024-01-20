@@ -33,9 +33,9 @@ public class WeatherForecastController : ControllerBase
     }
 
     [HttpGet(Name = "GetWeatherForecast")]
-    [Route("get/weatherforecast")]
+    /*[Route("get/weatherforecast")]
     [Route("get/weatherforecast2")]
-    [Route("[action]")]
+    [Route("[action]")]*/
     public IEnumerable<WeatherForecast> GetW()
     {
         _logger.LogInformation("Retornando Lista de elementos");

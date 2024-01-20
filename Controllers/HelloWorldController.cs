@@ -13,6 +13,7 @@ public class HelloWorldController : ControllerBase
         helloworldService = hellowoworld;
     }
 
+    [HttpGet]
     public IActionResult Get() 
     {
         return Ok(helloworldService.GetHelloWorld());
